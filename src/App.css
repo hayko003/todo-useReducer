@@ -1,0 +1,57 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.input_form_style {
+  border: 5px solid rgba(255, 94, 0, 0.648);
+  border-radius: 16px;
+  padding: 100px;
+}
+
+h1 {
+  color: rgba(255, 94, 0, 0.648)
+}
+
+.card {
+  padding: 2em;
+}
+
+.li_text {
+  list-style: none;
+  width: 80px;
+}
+
+.text_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.img_todo {
+  width: 20px;
+  filter: brightness(10);
+}
+
+.wrapper_input {
+  display: flex;
+  align-items: center;
+  justify-content: center; gap: 20px;
+}
+
+input {
+  height: 40px;
+  width: 250px;
+  border-radius: 10px;
+  outline: 0;
+  border: 0;
+  padding:0 15px;
+}
+
+ul {
+  padding: 0;
+}
